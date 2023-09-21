@@ -32,5 +32,5 @@ command[check_voip]=/opt/check_ovhcloud/check_voip -w 7200 -c 86400
 
 ```
 pip install pre-commit
-pre-commit run --files check_*
+pre-commit run --files check_* lib/*
 ```
