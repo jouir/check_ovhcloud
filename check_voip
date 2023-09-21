@@ -15,7 +15,7 @@ from nagiosplugin import (
     ScalarContext,
     Summary,
 )
-from nagiosplugin.state import Critical, Ok, Unknown, Warn
+from nagiosplugin.state import Unknown
 
 logger = logging.getLogger(__name__)
 

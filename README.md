@@ -14,6 +14,21 @@ pip install -r requirements.txt
 
 Create OVHcloud API tokens following [this guide](https://github.com/ovh/python-ovh).
 
+# check_ping
+
+Ensures basic configuration has succeeded. This command can be defined as
+dependency of all other ones.
+
+```
+./check_ping --help
+```
+
+Example of configuration:
+
+```
+command[check_ping]=/opt/check_ovhcloud/check_ping
+```
+
 # check_voip
 
 For each VoIP lines associated to the account, detect the last registration time:
