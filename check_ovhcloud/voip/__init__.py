@@ -133,7 +133,3 @@ def main():
         print(f"Failed to execute check: {str(err)}")
         logger.debug(err, exc_info=True)
         sys.exit(Unknown.code)
-
-
-if __name__ == "__main__":
-    main()
